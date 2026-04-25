@@ -1,5 +1,5 @@
 # CLI使用関数登録
-from controller.func import hello
+from controller.wordcloud import wordcloud
 
 # CLI
 from fire import Fire as _Fire
