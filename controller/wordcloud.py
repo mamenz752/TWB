@@ -44,7 +44,7 @@ def extract_words(text):
 def generate_wordcloud(words_list):
     dir_path = 'out/wordcloud'
     font = 'fonts/ipaexg.ttf'
-    now = datetime.datetime.now().strftime('%Y%m%d%H%MM%S')
+    now = datetime.datetime.now().strftime('%Y%m%d%H%M%S')
 
     wordcloud = WordCloud(font_path=font, width=3000, height=1800, collocations=False, background_color='white').generate(''.join(words_list))
 
