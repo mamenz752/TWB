@@ -1,0 +1,6 @@
+fire
+requests
+bs4
+janome
+wordcloud
+matplotlib
